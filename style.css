@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-image: url(./image/depositphotos_16428473-stock-photo-fog-and-pastel-gradient.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+
+}
+.box{
+    padding: 20px 30px;
+    width: 450px;
+    height: 600px;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    background: rgba(49,49, 49, .2);
+    border: 5px solid rgba(255, 255, 255, .5);
+}
+.box .form {
+    padding: 20px 20px;
+}
+
+.box .form h1 {
+    text-align: center;
+    color: cornflowerblue ;
+    text-decoration: underline black;
+}
+
+.box .form form {
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.box .form form  input { 
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #12151e;
+    margin-bottom: 12px;
+}
+.box .form form #submit{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0cc0df;
+    cursor: pointer;
+    font-size: 15px;
+}
+ 
+ 
